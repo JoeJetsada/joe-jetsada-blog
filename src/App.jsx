@@ -1,4 +1,4 @@
-import NavigationBar from "./component/navigationbar.jsx";
+import NavigationBar from "./component/Navbar.jsx";
 import HeroSection from "./component/HeroSection.jsx";
 
 function App() {
