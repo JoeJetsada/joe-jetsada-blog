@@ -1,11 +1,18 @@
+import NavigationBar from "./component/navigationbar.jsx";
+import HeroSection from "./component/HeroSection.jsx";
+
 function App() {
   return (
   <>
-    <section>
-      <h1>My First React App on Vite</h1>
-    </section>
+    <div className="min-h-screen bg-brown-100">
+      <NavigationBar />
+      <main>
+        <HeroSection />
+      </main>
+    </div>
   </>
   )
 }
 
 export default App
+
