@@ -1,5 +1,7 @@
-import NavigationBar from "./component/Navbar.jsx";
-import HeroSection from "./component/HeroSection.jsx";
+import NavigationBar from "@/components/Navbar.jsx";
+import HeroSection from "@/components/HeroSection.jsx";
+import Footer from "@/components/Footer.jsx";
+import ArticleSection from "@/components/ArticleSection.jsx";
 
 function App() {
   return (
@@ -8,7 +10,9 @@ function App() {
       <NavigationBar />
       <main>
         <HeroSection />
+        <ArticleSection />
       </main>
+      <Footer />
     </div>
   </>
   )
